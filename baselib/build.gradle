@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+//使用greendao
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion 26
@@ -16,6 +18,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    //greendao配置
+    greendao {
+        //版本号，升级时可配置
+        schemaVersion 1
     }
 }
 
@@ -39,6 +46,7 @@ dependencies {
     //加入 autoLayout库 进行屏幕适配
     //加入 注解工具库，避免使用大量的findViewById()
     //数据库显示
+    //greendao依赖
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     compile 'com.zhy:autolayout:1.4.5'
@@ -61,4 +69,5 @@ dependencies {
     compile 'com.ashokvarma.android:bottom-navigation-bar:2.0.3'
     compile 'com.githang:status-bar-compat:0.7'
     implementation files('lib/pinyin4j-2.5.0.jar')
+    compile 'org.greenrobot:greendao:3.2.0'
 }
