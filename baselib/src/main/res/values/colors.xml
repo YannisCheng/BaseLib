@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1976D2</color>
+
+    <!-- 0 Black 黑色 -->
+    <color name="Black">#000000</color>
+
+
+    <!-- 0 White 白色 -->
+    <color name="White">#FFFFFF</color>
+
+    <!-- 灰色 -->
+    <color name="Grey_50">#FAFAFA</color>
+    <color name="Grey_100">#F5F5F5</color>
+    <color name="Grey_200">#EEEEEE</color>
+    <color name="Grey_300">#E0E0E0</color>
+    <color name="Grey_400">#BDBDBD</color>
+    <color name="Grey_500_bar">#9E9E9E</color>
+    <color name="Grey_600">#757575</color>
+    <color name="Grey_700">#616161</color>
+    <color name="Grey_800">#424242</color>
+    <color name="Grey_900">#212121</color>
+
+    <!-- 红-->
+    <color name="r_700">#D32F2F</color>
+
+    <!-- 橘红 -->
+    <color name="Deep_Orange_700">#E64A19</color>
+    <color name="Deep_Orange_900">#BF360C</color>
+
+    <!-- 绿 -->
+    <color name="Green_700">#388E3C</color>
+    <color name="Green_900">#1B5E20</color>
+
+    <!-- 青 -->
+    <color name="Cyan_700">#0097A7</color>
+    <color name="Cyan_900">#006064</color>
+
+    <!-- 蓝 -->
+    <color name="Blue_700">#1976D2</color>
+
+    <!-- 日期选择器 dialog -->
+    <color name="bocop_dialog_bg">#77000000</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_e84515">#e84515</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_323232">#323232</color>
+    <color name="province_line_border">#D0D0D0</color>
+    <color name="login_txt">#388CD9</color>
+</resources>
