@@ -54,9 +54,31 @@ public class BaiduMapActivity extends BaseActivity {
     TextView mShowMsgCurrent;
 
     private BaiduMap mBaiduMap = null;
+
+    /**
+     * 定位服务的客户端。宿主程序在客户端声明此类，并调用，目前只支持在主线程中启动
+     */
     private LocationClient mLocationClient = null;
+
+    /**
+     * 配置定位SDK各配置参数，比如定位模式、定位时间间隔、坐标系类型等
+     */
     private LocationClientOption mClientOption = null;
     private YcSensorEventListener myOrientationListener;
+
+    /**
+     * 自定义图标
+     */
+    private BitmapDescriptor mDescriptor;
+
+    /**
+     * 定位图层
+     */
+    private MyLocationConfiguration.LocationMode mLocationMode;
+    /**
+     * 地理位置接口实现
+     */
+    private YcBdBslListener locationListener;
 
     /**
      * 此处的经纬度信息只是为了 在外部供用户手动定位当前位置使用
@@ -74,19 +96,7 @@ public class BaiduMapActivity extends BaseActivity {
      */
     private float mCurrentAccracy;
 
-    /**
-     * 自定义图标
-     */
-    private BitmapDescriptor mDescriptor;
 
-    /**
-     * 定位图层
-     */
-    private MyLocationConfiguration.LocationMode mLocationMode;
-    /**
-     * 地理位置接口实现
-     */
-    private YcBdBslListener locationListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -230,7 +240,9 @@ public class BaiduMapActivity extends BaseActivity {
         mBmapView.onDestroy();
     }
 
-
+    /**
+     * 定位请求回调
+     */
     class YcBdBslListener implements BDLocationListener {
 
         private static final String TAG = "YcBdBslListener";
@@ -240,6 +252,10 @@ public class BaiduMapActivity extends BaseActivity {
          */
         boolean isFirstLocation = true;
 
+        /**
+         * 回调的百度坐标类，内部封装了如经纬度、半径等属性信息
+         * @param bdLocation .
+         */
         @Override
         public void onReceiveLocation(BDLocation bdLocation) {
 
