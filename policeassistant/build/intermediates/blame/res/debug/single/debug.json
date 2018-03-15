@@ -12,28 +12,28 @@
         "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable-xxhdpi/ic_lock_outline_black_24dp.png"
     },
     {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/color_abc_tint_spinner.xml.flat",
         "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/db36fa74b61ef897652e195454c7e5c6/res/layout/notification_action_tombstone.xml"
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/anim_act_switch_translate_top2screen.xml.flat",
         "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/anim/act_switch_translate_top2screen.xml"
     },
     {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/db36fa74b61ef897652e195454c7e5c6/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -68,16 +68,16 @@
         "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/anim_act_switch_fade_out.xml.flat",
-        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/anim/act_switch_fade_out.xml"
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_personal_oriangle_24dp.png.flat",
+        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable-xxhdpi/ic_personal_oriangle_24dp.png"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_personal_oriangle_24dp.png.flat",
-        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable-xxhdpi/ic_personal_oriangle_24dp.png"
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/anim_act_switch_fade_out.xml.flat",
+        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/anim/act_switch_fade_out.xml"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-xhdpi_ic_done_black_24dp.png.flat",
@@ -88,20 +88,20 @@
         "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable/rect_four_bg_selector.xml"
     },
     {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-mdpi_ic_personal_orangle_deep_24dp.png.flat",
+        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable-mdpi/ic_personal_orangle_deep_24dp.png"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/layout_design_layout_tab_icon.xml.flat",
         "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1e8252ea8cb0e6f4b2d7cf27999d48f5/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-mdpi_ic_personal_orangle_deep_24dp.png.flat",
-        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable-mdpi/ic_personal_orangle_deep_24dp.png"
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/anim_modal_in.xml.flat",
@@ -1568,6 +1568,10 @@
         "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/33731533b847e9daa3100459cd538a9c/res/layout/notification_media_cancel_action.xml"
     },
     {
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/layout_activity_baidu_map.xml.flat",
+        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/layout/activity_baidu_map.xml"
+    },
+    {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_visibility_off_black_blue_24dp.png.flat",
         "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable-xxhdpi/ic_visibility_off_black_blue_24dp.png"
     },
@@ -2570,6 +2574,10 @@
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
         "source": "/Users/yannischeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6046cf082b5082d9e5f840266de07d81/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_local_blue.png.flat",
+        "source": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/src/main/res/drawable-xxhdpi/ic_local_blue.png"
     },
     {
         "merged": "/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/res/merged/debug/drawable_gray_button_background.xml.flat",

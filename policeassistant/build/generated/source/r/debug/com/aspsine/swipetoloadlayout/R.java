@@ -30,11 +30,11 @@ public final class R {
     public static final class id {
         public static final int above = 0x7f08000a;
         public static final int blew = 0x7f08002b;
-        public static final int classic = 0x7f080042;
-        public static final int scale = 0x7f0800dc;
-        public static final int swipe_load_more_footer = 0x7f08010e;
-        public static final int swipe_refresh_header = 0x7f08010f;
-        public static final int swipe_target = 0x7f080110;
+        public static final int classic = 0x7f080044;
+        public static final int scale = 0x7f0800de;
+        public static final int swipe_load_more_footer = 0x7f080112;
+        public static final int swipe_refresh_header = 0x7f080113;
+        public static final int swipe_target = 0x7f080114;
     }
     public static final class styleable {
         public static final int[] SwipeToLoadLayout = { 0x7f030086, 0x7f030087, 0x7f03008f, 0x7f030113, 0x7f030114, 0x7f030115, 0x7f030116, 0x7f030117, 0x7f030141, 0x7f030142, 0x7f030143, 0x7f030144, 0x7f030145, 0x7f030146, 0x7f030147, 0x7f030173, 0x7f030174, 0x7f030175 };

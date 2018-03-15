@@ -82,7 +82,7 @@ public class LoginActivity extends BaseActivity implements ILoginView {
                 mLoginPresenter.returnCheckCodeData("123123");
                 //startActivity(new Intent(LoginActivity.this, MainActivity.class));
                 dealInput(v);
-                startActivity(new Intent(LoginActivity.this, TestActivity.class));
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
             }
         });
 

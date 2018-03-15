@@ -1,4 +1,4 @@
-#Thu Mar 15 10:26:52 CST 2018
-base.0=/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/transforms/dexMerger/debug/19
+#Thu Mar 15 17:15:44 CST 2018
+base.0=/Users/yannischeng/AndroidStudioProjectJobs/2018/PoliceAssistant/policeassistant/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

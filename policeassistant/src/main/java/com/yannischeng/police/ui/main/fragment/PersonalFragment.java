@@ -1,5 +1,6 @@
 package com.yannischeng.police.ui.main.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.yannischeng.police.ui.map_baidu.BaiduMapActivity;
 import com.yannischeng.police.widget.SingleInfo;
 import com.yannischeng.guolvtj.R;
 
@@ -61,6 +63,7 @@ public class PersonalFragment extends Fragment {
         mPersonalMine.setImgClickListener(new SingleInfo.ClickListener() {
             @Override
             public void singleOnClickListener(View view) {
+                startActivity(new Intent(getActivity(), BaiduMapActivity.class));
                 Toast.makeText(getContext(), "我的信息", Toast.LENGTH_SHORT).show();
             }
         });

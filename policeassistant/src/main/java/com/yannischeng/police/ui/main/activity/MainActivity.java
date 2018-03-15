@@ -1,20 +1,30 @@
 package com.yannischeng.police.ui.main.activity;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.DialogInterface;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.githang.statusbar.StatusBarCompat;
+import com.yannischeng.guolvtj.R;
 import com.yannischeng.police.adapter.MainViewPageAdapter;
 import com.yannischeng.police.base.BaseActivity;
 import com.yannischeng.police.ui.main.fragment.HomeFragment;
 import com.yannischeng.police.ui.main.fragment.LineFragment;
 import com.yannischeng.police.ui.main.fragment.NetBussniesFragment;
 import com.yannischeng.police.ui.main.fragment.PersonalFragment;
-import com.yannischeng.guolvtj.R;
+import com.yannischeng.police.utils.PermissionUtil;
 
 import butterknife.ButterKnife;
 
@@ -65,7 +75,8 @@ public class MainActivity extends BaseActivity {
         //viewpager监听事件
         viewPagerClick();
 
-
+        // 权限处理
+        dealPermission();
     }
 
     @Override
@@ -167,5 +178,94 @@ public class MainActivity extends BaseActivity {
         });
     }
 
+    /**
+     * 权限处理
+     */
+    private void dealPermission() {
+        // ACCESS_FINE_LOCATION
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (ContextCompat.checkSelfPermission(MainActivity.this, PermissionUtil.STR_PERMISSION_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(MainActivity.this,new String[]{PermissionUtil.STR_PERMISSION_LOCATION, PermissionUtil.STR_PERMISSION_STORAGE,PermissionUtil.STR_PERMISSION_FINE_LOCATION}, PermissionUtil.CODE_PERMISSION_LOCATION);
+            } else {
+                // 权限已经通过
+                //doOK();
+            }
+        } else {
+            // 系统版本 < 23
+            //doOK();
+        }
+    }
+
+
+    /**
+     * 权限调用结果回调
+     */
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        // 0 OK, -1 NO
+        switch (requestCode) {
+            case PermissionUtil.CODE_PERMISSION_LOCATION:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    //doOK();
+                } else {
+                    if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this, permissions[0])) {
+                        // 首先判断是否需要弹出窗口
+                        showDialog(MainActivity.this,new String[]{PermissionUtil.STR_PERMISSION_LOCATION}, PermissionUtil.CODE_PERMISSION_LOCATION);
+                    } else {
+                        // 如果用户坚持不授权，那么就直接退出。
+                        finish();
+                    }
+
+                    if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this, permissions[1])) {
+                        // 首先判断是否需要弹出窗口
+                        showDialog(MainActivity.this,new String[]{PermissionUtil.STR_PERMISSION_STORAGE}, PermissionUtil.CODE_PERMISSION_STORAGE);
+                    } else {
+                        // 如果用户坚持不授权，那么就直接退出。
+                        finish();
+                    }
+                    if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this, permissions[2])) {
+                        // 首先判断是否需要弹出窗口
+                        showDialog(MainActivity.this,new String[]{PermissionUtil.STR_PERMISSION_FINE_LOCATION}, PermissionUtil.CODE_PERMISSION_STORAGE);
+                    } else {
+                        // 如果用户坚持不授权，那么就直接退出。
+                        finish();
+                    }
+                }
+            default:
+        }
+    }
+
+    private void showDialog(final Activity activity, final String[] requestPermission, final int requestCode) {
+        showMessageOKCancel(activity, "提示信息", new DialogInterface.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // 授权
+                dialog.dismiss();
+                requestPermissions(requestPermission,requestCode);
+            }
+        }, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // 取消
+                dialog.dismiss();
+                // 直接finish异常！！
+                finish();
+            }
+        });
+    }
+
+    /**
+     * 执行弹窗
+     */
+    private static void showMessageOKCancel(final Activity context, String message, DialogInterface.OnClickListener okListener, DialogInterface.OnClickListener noListerer) {
+        new AlertDialog.Builder(context)
+                .setMessage(message)
+                .setPositiveButton("授权", okListener)
+                .setNegativeButton("取消", noListerer)
+                .create()
+                .show();
+    }
 
 }

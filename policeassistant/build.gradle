@@ -80,4 +80,5 @@ dependencies {
     }
     // RecyclerView万能适配器
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.15'
+    implementation files('lib/BaiduLBS_Android.jar')
 }
