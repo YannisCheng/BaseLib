@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Grey_100"
+    android:orientation="vertical">
+
+    <com.yannischeng.police.widget.SingleInfo
+        android:id="@+id/personal_mine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_info"
+        android:onClick="onViewClicked"
+        yc:single_img_left="@drawable/toolbar_back_btn_selector"
+        yc:single_img_right="@drawable/personal_img_right_selector"
+        yc:single_title="@string/single_title_mine"
+        yc:single_title_size="@dimen/text_personal"
+        />
+
+    <com.yannischeng.police.widget.SingleInfo
+        android:id="@+id/personal_charge_recode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_info"
+        android:layout_marginTop="@dimen/margin8"
+        android:onClick="onViewClicked"
+        yc:single_img_left="@drawable/toolbar_back_btn_selector"
+        yc:single_img_right="@drawable/personal_img_right_selector"
+        yc:single_title="@string/single_title_charge"
+        yc:single_title_size="@dimen/text_personal"
+        />
+
+    <com.yannischeng.police.widget.SingleInfo
+        android:id="@+id/personal_fix_recode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_info"
+        android:layout_marginTop="@dimen/margin8"
+        android:onClick="onViewClicked"
+        yc:single_img_left="@drawable/toolbar_back_btn_selector"
+        yc:single_img_right="@drawable/personal_img_right_selector"
+        yc:single_title="@string/single_title_fix_recode"
+        yc:single_title_size="@dimen/text_personal"
+        />
+
+    <com.yannischeng.police.widget.SingleInfo
+        android:id="@+id/personal_up_recode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_info"
+        android:layout_marginTop="@dimen/margin8"
+        android:onClick="onViewClicked"
+        yc:single_img_left="@drawable/toolbar_back_btn_selector"
+        yc:single_img_right="@drawable/personal_img_right_selector"
+        yc:single_title="@string/single_title_up_recode"
+        yc:single_title_size="@dimen/text_personal"
+        />
+
+    <com.yannischeng.police.widget.SingleInfo
+        android:id="@+id/personal_chage_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_info"
+        android:layout_marginTop="@dimen/margin16"
+        android:onClick="onViewClicked"
+        yc:single_img_left="@drawable/toolbar_back_btn_selector"
+        yc:single_img_right="@drawable/personal_img_right_selector"
+        yc:single_title="@string/single_title_change_pwd"
+        yc:single_title_size="@dimen/text_personal"
+        />
+
+    <com.yannischeng.police.widget.SingleInfo
+        android:id="@+id/personal_login_out"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_info"
+        android:layout_marginTop="@dimen/margin8"
+        android:onClick="onViewClicked"
+        yc:single_img_left="@drawable/toolbar_back_btn_selector"
+        yc:single_img_right="@drawable/personal_img_right_selector"
+        yc:single_title="@string/single_title_login_out"
+        yc:single_title_size="@dimen/text_personal"
+        />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

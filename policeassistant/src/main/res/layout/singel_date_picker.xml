@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ly_myinfo_changeaddress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ly_myinfo_changeaddress_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White"
+        android:orientation="vertical">
+
+
+        <com.zhy.autolayout.AutoRelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="122px"
+            android:paddingBottom="@dimen/margin16"
+            android:paddingTop="@dimen/margin16"
+            >
+
+            <TextView
+                android:id="@+id/btn_myinfo_cancel"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin64"
+                android:background="@drawable/choose_data_no"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/first_time"
+                android:layout_width="500px"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/btn_myinfo_cancel"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="sadfaf"
+                android:textColor="@color/color_e84515"
+                android:textSize="56px"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/last_time"
+
+                android:layout_width="500px"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="105px"
+                android:gravity="center"
+                android:textColor="@color/color_e84515"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/btn_myinfo_sure"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/margin64"
+                android:background="@drawable/choose_data_ok"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text48"
+                android:visibility="visible"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <TextView
+            android:id="@+id/choose_time_line"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginLeft="@dimen/bar_padding_2"
+            android:layout_marginRight="@dimen/bar_padding_2"
+            android:background="@color/color_d8d8d8"
+            android:visibility="visible"
+            />
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/choose_time_layout"
+            android:layout_width="match_parent"
+            android:layout_height="600px"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <com.yannischeng.police.widget.date_picker.config.WheelView
+                android:id="@+id/wv_birth_year"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                />
+
+            <com.yannischeng.police.widget.date_picker.config.WheelView
+                android:id="@+id/wv_birth_month"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                />
+
+            <com.yannischeng.police.widget.date_picker.config.WheelView
+                android:id="@+id/wv_birth_day"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>
